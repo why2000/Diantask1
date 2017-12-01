@@ -19,7 +19,7 @@
 > INDEX: 当前的暂存区(最近一次add)  
 > WORKING COPY: 目前你的文件本身的样子(最近一次保存文件本身)  
 > master/dev: 各个不同的分支，用于被HEAD等所指向  
-> checkout: 仅仅移动HEAD在当前分支上的位置并将
+> checkout: 使HEAD指向对应参数所在的位置，并把INDEX和WORKING COPY
 > reset --hard: 
 
 ### 2. 
