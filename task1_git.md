@@ -20,7 +20,14 @@
 > INDEX: 当前的暂存区(最近一次add)  
 > WORKING COPY: 目前你的文件本身的样子(最近一次保存文件本身)  
 > master/dev: 各个不同的分支，用于被HEAD等所指向  
-> checkout: 使HEAD指向对应参数所在的位置，并把INDEX和WORKING COPY
-> reset: --hard: 
+> checkout: 使HEAD指向对应参数所在的位置，可以是某个commit，也可以是一个分支。  
+> >但不改变当前分支顶点，会使HEAD与当前分支顶点分离。  
+>  
+> reset: 把HEAD和其当前所指的分支顶点(如果存在)移动到指定位置  
+> > --hard: 带上了INDEX和WC一起动  
+> > --soft: 只动HEAD  
+> > --mixed: 带上INDEX一起动
+>
+> 
 
 ### 2. 
