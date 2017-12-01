@@ -14,7 +14,7 @@
 4. 历史版本的查看(git reflog/git log)
 5. 版本修改详细信息的查看(git diff)
 
-### 1. 通过学习 [git reset soft,hard,mixed之区别深解 - 世有因果知因索果 - 博客园](https://www.cnblogs.com/kidsitcn/p/4513297.html) 以及 [创建与合并分支 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)加深了对于git版本控制的理解
+### 2. 通过学习 [git reset soft,hard,mixed之区别深解 - 世有因果知因索果 - 博客园](https://www.cnblogs.com/kidsitcn/p/4513297.html) 以及 [创建与合并分支 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)加深了对于git版本控制的理解
 
 > HEAD: 顶端版本(最近一次commit)  
 > INDEX: 当前的暂存区(最近一次add)  
@@ -28,6 +28,6 @@
 > > --soft: 只动HEAD  
 > > --mixed: 带上INDEX一起动
 >
-> 
+>
 
-### 2. 
+### 3. 
