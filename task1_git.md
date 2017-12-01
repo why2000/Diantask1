@@ -20,14 +20,23 @@
 > INDEX: 当前的暂存区(最近一次add)  
 > WORKING COPY: 目前你的文件本身的样子(最近一次保存文件本身)  
 > master/dev: 各个不同的分支，用于被HEAD等所指向  
-> checkout: 使HEAD指向对应参数所在的位置，可以是某个commit，也可以是一个分支。  
-> >但不改变当前分支顶点，会使HEAD与当前分支顶点分离。  
->  
-> reset: 把HEAD和其当前所指的分支顶点(如果存在)移动到指定位置  
-> > --hard: 带上了INDEX和WC一起动  
-> > --soft: 只动HEAD  
-> > --mixed: 带上INDEX一起动
+> `checkout`: 使HEAD指向对应参数所在的位置，可以是某个commit，也可以是一个分支。  
+> + 但不改变当前分支顶点，会使HEAD与当前分支顶点分离。  
 >
->
+> `reset`: 把HEAD和其当前所指的分支顶点(如果存在)移动到指定位置  
+> + `--hard`: 带上了INDEX和WC一起动  
+> + `--soft`: 只动HEAD  
+> + `--mixed`: 带上INDEX一起动
 
-### 3. 
+### 3. 学习了如何在本地git库与远程仓库间进行传输。
+
+1. 生成/查看本地SSH密钥  
+> + `cd ~/.ssh`
+> + `ssh-keygen -t rsa -C "email@email.com"`
+
+2. 在本地库添加远程仓库，并在远程仓库添加SSH公钥
+> + `git remote add origin https://mygit.git`
+
+3. 推送到远程库
+> + `git push -u origin master`(第一次时用此命令，以后用下面一个)
+> + `git push origin master`
