@@ -65,3 +65,5 @@
 ## 本日进度
 
 ### 继续使用Git Bash练习了目前掌握的git基本语法，对分支控制有了进一步的理解
+
+> 注: 如果你已经打开了这份笔记，应该已经知道了我的github地址: [why2000 (伍瀚缘)](https://github.com/why2000)(https://github.com/why2000)
